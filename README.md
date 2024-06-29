@@ -1,3 +1,8 @@
+# Bracket Visualiser with React and Redux
+
+This is a simple bracket visualiser made with the intention of learning how to use React and Redux to make webapps. The bracket supports entrants that are powers of 2 (from 4 to 64(this can be modified in the return JSX of the BracketCreator in BracketCreator.js)).
+
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
