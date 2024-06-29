@@ -1,0 +1,79 @@
+.bracket-creator {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .bracket-creator h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .bracket-creator form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bracket-creator .team-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bracket-creator .team-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .bracket-creator input[type="text"],
+  .bracket-creator input[type="number"],
+  .bracket-creator select {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  
+  .bracket-creator input[type="number"] {
+    width: 60px;
+  }
+  
+  .bracket-creator select {
+    width: 100px;
+  }
+  
+  .bracket-creator button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bracket-creator button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 768px) {
+    .bracket-creator .team-input-container {
+      flex-direction: column;
+    }
+  
+    .bracket-creator input[type="text"],
+    .bracket-creator input[type="number"],
+    .bracket-creator select {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
